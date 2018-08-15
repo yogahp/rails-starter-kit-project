@@ -38,3 +38,6 @@ PreCommit:
 
   BundleAudit:
     enabled: true
+
+  Reek:
+    enabled: true
