@@ -35,3 +35,6 @@ PreCommit:
 
   Fasterer:
     enabled: true
+
+  BundleAudit:
+    enabled: true
