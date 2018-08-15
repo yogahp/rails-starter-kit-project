@@ -1,0 +1,14 @@
+AllCops:
+  Exclude:
+    - 'spec/**/*'
+    - 'bin/*'
+  TargetRubyVersion: 2.5
+
+Metrics/LineLength:
+  Max: 120
+
+FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
