@@ -18,9 +18,12 @@ Personally, i always use RVM as my version manager for handling rails project. B
 A step by step how to get a development env running
 
 ```
-$ git clone https://github.com/yogahp/rails-starter-kit-project.git
-$ cd rails-starter-kit-project
+$ git clone https://github.com/yogahp/rails-starter-kit-project.git your-awesome-project-name
+$ cd your-awesome-project-name
+$ vim config/application.rb
 ```
+
+And then change `RailsStarterKitProject` to `YourAwesomeProjectName`
 
 Create your own .rvmrc or .rbenv file and place it at the root of project to make sure you use correct ruby version for the project
 
