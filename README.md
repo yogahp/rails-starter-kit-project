@@ -124,3 +124,5 @@ To running all the tests, you can run command:
 ```
 $ rake code_analyzer:all
 ```
+
+## Contributing
