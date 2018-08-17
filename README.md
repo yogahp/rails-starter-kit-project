@@ -27,6 +27,29 @@ And then change `RailsStarterKitProject` to `YourAwesomeProjectName`
 
 Create your own .rvmrc or .rbenv file and place it at the root of project to make sure you use correct ruby version for the project
 
+#### Database
+
+##### Postgres
+
+Add `gem 'pg'` to your Gemfile, and then `cp config/postgres.database.yml config/database.yml`. Config database according to your requirement
+
+##### MySQL
+
+Add `gem 'mysql2'` to your Gemfile, and then `cp config/mysql.database.yml config/database.yml`. Config database according to your requirement
+
+##### SQLite
+
+Add `gem 'sqlite3'` to your Gemfile, and then `cp config/sqlite.database.yml config/database.yml`. Config database according to your requirement
+
+To setup database, run command:
+
+```
+$ rake db:create
+$ rake db:migrate
+```
+
+#### Running server
+
 ```
 $ bundle install
 $ rails s

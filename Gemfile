@@ -12,7 +12,6 @@ gem 'overcommit', '~> 0.45.0' # A fully configurable and extendable Git hook man
 gem 'puma', '~> 3.11' # Web Server Built For Concurrency
 gem 'rails', '~> 5.2.1' # Web-application framework
 gem 'sass-rails', '~> 5.0' # Stylesheet engine for Sass
-gem 'sqlite3', '~> 1.3.13' # SQLite3 database engine
 gem 'turbolinks', '~> 5' # Makes navigating your web application faster
 gem 'tzinfo-data', '~> 1.2.5', platforms: %i[mingw mswin x64_mingw jruby] # TZInfo::Data - Timezone Data for TZInfo
 gem 'uglifier', '>= 1.3.0' # Wrapper for UglifyJS JavaScript compressor
