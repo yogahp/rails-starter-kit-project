@@ -30,6 +30,7 @@ group :development do
   gem 'bundler-audit', '~> 0.6.0' # Patch-level verification for Bundler
   gem 'fasterer', '~> 0.4.1' # Suggest some speed improvements
   gem 'listen', '>= 3.0.5', '< 3.2' # Listens to file modifications and notifies you about the changes
+  gem 'pry-rails', '~> 0.3.6' # Avoid repeating yourself
   gem 'rails_best_practices', '~> 1.19.3' # A code metric tool
   gem 'reek', '~> 5.0.2' # Code smell detector
   gem 'rubocop', '~> 0.58.2' # Static code analyzer and formatter
