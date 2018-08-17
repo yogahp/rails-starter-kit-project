@@ -50,3 +50,9 @@ $ rake test
 ```
 $ brakeman
 ```
+
+### bundler-audit
+
+```
+$ bundle audit
+```
