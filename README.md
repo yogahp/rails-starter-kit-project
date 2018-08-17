@@ -96,3 +96,13 @@ Use the `rails_best_practices` command to run rails_best_practices
 ```
 $ rails_best_practices
 ```
+
+### [Reek](https://github.com/troessner/reek)
+
+Code smell detector for Ruby
+
+Use the `reek` command to run reek
+
+```
+$ reek
+```
