@@ -116,3 +116,11 @@ Use the `rubocop` command to run rubocop
 ```
 $ rubocop
 ```
+
+### All in one
+
+To running all the tests, you can run command:
+
+```
+$ rake code_analyzer:all
+```
