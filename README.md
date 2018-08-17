@@ -128,3 +128,7 @@ $ rake code_analyzer:all
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/yogahp/rails-starter-kit-project/blob/460be570d212312911283fd22eb42a652cc79630/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/yogahp/rails-starter-kit-project/releases).
