@@ -1,62 +1,45 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-# Use Puma as the app server
-gem 'puma', '~> 3.11'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'mini_racer', platforms: :ruby
-
-# Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
-# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
-# Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap', '>= 1.1.0', require: false # Boot large Ruby/Rails apps faster
+gem 'coffee-rails', '~> 4.2' # CoffeeScript adapter for the Rails asset pipeline
+gem 'jbuilder', '~> 2.5' # Generate JSON objects with a Builder-style DSL
+gem 'overcommit', '~> 0.45.0' # A fully configurable and extendable Git hook manager
+gem 'puma', '~> 3.11' # Web Server Built For Concurrency
+gem 'rails', '~> 5.2.1' # Web-application framework
+gem 'sass-rails', '~> 5.0' # Stylesheet engine for Sass
+gem 'turbolinks', '~> 5' # Makes navigating your web application faster
+gem 'tzinfo-data', '~> 1.2.5', platforms: %i[mingw mswin x64_mingw jruby] # TZInfo::Data - Timezone Data for TZInfo
+gem 'uglifier', '>= 1.3.0' # Wrapper for UglifyJS JavaScript compressor
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'dotenv-rails', '~> 2.5.0' # Shim to load environment variables from .env into ENV in development.
+  gem 'factory_bot_rails', '~> 4.11.0' # Fixtures replacement
+  gem 'rspec-rails', '~> 3.7' # Testing framework for Rails 3.x, 4.x and 5.x
 end
 
 group :development do
-  # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
-  gem 'listen', '>= 3.0.5', '< 3.2'
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'better_errors', '~> 2.4.0' # Replaces the standard Rails error page with a much better and more useful error page
+  gem 'binding_of_caller', '~> 0.8.0' # Retrieve the binding of a method's caller in MRI (>= 1.9.2) and RBX (Rubinius)
+  gem 'brakeman', '~> 4.3.1', require: false # Static analysis tool which checks security vulnerabilities.
+  gem 'bundler-audit', '~> 0.6.0' # Patch-level verification for Bundler
+  gem 'fasterer', '~> 0.4.1' # Suggest some speed improvements
+  gem 'listen', '>= 3.0.5', '< 3.2' # Listens to file modifications and notifies you about the changes
+  gem 'pry-rails', '~> 0.3.6' # Avoid repeating yourself
+  gem 'rails_best_practices', '~> 1.19.3' # A code metric tool
+  gem 'reek', '~> 5.0.2' # Code smell detector
+  gem 'rubocop', '~> 0.58.2' # Static code analyzer and formatter
+  gem 'spring', '~> 2.0.2' # Application preloader
+  gem 'spring-watcher-listen', '~> 2.0.0' # Listen watcher for Spring
+  gem 'web-console', '>= 3.3.0' # Rails Console on the Browser.
 end
 
 group :test do
-  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15'
-  gem 'selenium-webdriver'
-  # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
+  gem 'capybara', '>= 2.15' # Acceptance test framework
+  gem 'chromedriver-helper', '~> 1.2.0' # Easy installation and use of chromedriver to run system tests with Chrome
+  gem 'selenium-webdriver', '~> 3.14.0' # Tool for writing automated tests
 end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
