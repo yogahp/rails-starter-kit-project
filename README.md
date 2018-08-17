@@ -44,3 +44,9 @@ $ rspec
 ```
 $ rake test
 ```
+
+### Brakeman
+
+```
+$ brakeman
+```
