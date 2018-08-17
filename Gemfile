@@ -18,6 +18,7 @@ gem 'uglifier', '>= 1.3.0' # Wrapper for UglifyJS JavaScript compressor
 
 group :development, :test do
   gem 'byebug', '~> 10.0.2', platforms: %i[mri mingw x64_mingw] # Debugger
+  gem 'dotenv-rails', '~> 2.5.0' # Shim to load environment variables from .env into ENV in development.
   gem 'factory_bot_rails', '~> 4.11.0' # Fixtures replacement
   gem 'rspec-rails', '~> 3.7' # Testing framework for Rails 3.x, 4.x and 5.x
 end
