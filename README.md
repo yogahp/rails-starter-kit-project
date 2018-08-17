@@ -32,3 +32,17 @@ $ rails s
 ```
 
 Open [htttp://localhost:3000](http://localhost:3000) on your browser, and then you will get screen of welcome to the rails project
+
+## Running the tests
+
+### Rspec
+
+```
+$ rspec
+```
+
+### Minitest
+
+```
+$ rake test
+```
