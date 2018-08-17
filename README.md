@@ -76,3 +76,13 @@ Use the `bundle audit` command to run bundler-audit
 ```
 $ bundle audit
 ```
+
+### [Fasterer](https://github.com/DamirSvrtan/fasterer)
+
+Make your Rubies go faster
+
+Use the `fasterer` command to run fasterer
+
+```
+$ fasterer
+```
