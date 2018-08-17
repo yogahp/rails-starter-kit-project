@@ -132,3 +132,9 @@ Please read [CONTRIBUTING.md](https://github.com/yogahp/rails-starter-kit-projec
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/yogahp/rails-starter-kit-project/releases).
+
+## Authors
+
+* **Yoga Hapriana** - *Initial work*
+
+See also the list of [contributors](https://github.com/yogahp/rails-starter-kit-project/graphs/contributors) who participated in this project.
