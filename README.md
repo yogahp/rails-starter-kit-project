@@ -35,8 +35,25 @@ Open [htttp://localhost:3000](http://localhost:3000) on your browser, and then y
 
 ### Rspec
 
+Testing framework for Rails 3.x, 4.x and 5.x.
+
+Use the `rspec` command to run your specs:
+
 ```
-$ rspec
+$ bundle exec rspec
+```
+
+To run only a subset of these specs use the following command:
+
+```
+# Run only model specs
+$ bundle exec rspec spec/models
+
+# Run only specs for AccountsController
+$ bundle exec rspec spec/controllers/accounts_controller_spec.rb
+
+# Run only spec on line 8 of AccountsController
+$ bundle exec rspec spec/controllers/accounts_controller_spec.rb:8
 ```
 
 ### Minitest
