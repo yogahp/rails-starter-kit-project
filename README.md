@@ -67,7 +67,11 @@ Use the `brakeman` command to run brakeman
 $ brakeman
 ```
 
-### bundler-audit
+### [bundler-audit](https://github.com/rubysec/bundler-audit)
+
+Patch-level verification for bundler.
+
+Use the `bundle audit` command to run bundler-audit
 
 ```
 $ bundle audit
