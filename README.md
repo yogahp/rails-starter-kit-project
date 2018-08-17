@@ -151,6 +151,21 @@ To running all the tests, you can run command:
 $ rake code_analyzer:all
 ```
 
+## List of Gems
+
+* [overcommit](https://github.com/brigade/overcommit) - A fully configurable and extendable Git hook manager
+* [dotenv](https://github.com/bkeepers/dotenv) - Shim to load environment variables from .env into ENV in development.
+* [factory_bot_rails](https://github.com/thoughtbot/factory_bot_rails) - is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.
+* [rspec-rails](https://github.com/rspec/rspec-rails) - rspec-rails is a testing framework for Rails 3.x, 4.x and 5.x.
+* [Better Errors](https://github.com/charliesome/better_errors) - Better Errors replaces the standard Rails error page with a much better and more useful error page
+* [Brakeman](https://github.com/presidentbeef/brakeman) - Brakeman is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
+* [bundler-audit](https://github.com/rubysec/bundler-audit) - Patch-level verification for bundler.
+* [Fasterer](https://github.com/DamirSvrtan/fasterer) - Make your Rubies go faster
+* [pry-rails](https://github.com/rweng/pry-rails) - Avoid repeating yourself, use pry-rails instead of copying the initializer to every rails project.
+* [rails_best_practices](https://github.com/flyerhzm/rails_best_practices) - rails_best_practices is a code metric tool to check the quality of Rails code.
+* [Reek](https://github.com/troessner/reek) - Code smell detector for Ruby
+* [RuboCop](https://github.com/rubocop-hq/rubocop) - RuboCop is a Ruby static code analyzer and code formatter.
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/yogahp/rails-starter-kit-project/blob/460be570d212312911283fd22eb42a652cc79630/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
