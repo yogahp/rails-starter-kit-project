@@ -106,3 +106,13 @@ Use the `reek` command to run reek
 ```
 $ reek
 ```
+
+### [RuboCop](https://github.com/rubocop-hq/rubocop)
+
+Ruby static code analyzer and code formatter
+
+Use the `rubocop` command to run rubocop
+
+```
+$ rubocop
+```
