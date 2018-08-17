@@ -50,6 +50,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'bundler-audit'
   gem 'fasterer'
+  gem 'rails_best_practices'
   gem 'reek'
   gem 'rubocop'
   gem 'spring'

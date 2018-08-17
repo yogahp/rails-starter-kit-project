@@ -72,6 +72,8 @@ GEM
     chromedriver-helper (1.2.0)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
+    code_analyzer (0.4.8)
+      sexp_processor
     codeclimate-engine-rb (0.4.1)
       virtus (~> 1.0)
     coercible (1.0.0)
@@ -90,6 +92,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     equalizer (0.0.11)
     erubi (1.7.1)
+    erubis (2.7.0)
     execjs (2.7.0)
     fasterer (0.4.1)
       colorize (~> 0.7)
@@ -106,6 +109,7 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+    json (2.1.0)
     kwalify (0.7.2)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -158,6 +162,14 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails_best_practices (1.19.3)
+      activesupport
+      code_analyzer (>= 0.4.8)
+      erubis
+      i18n
+      json
+      require_all (~> 2.0)
+      ruby-progressbar
     railties (5.2.1)
       actionpack (= 5.2.1)
       activesupport (= 5.2.1)
@@ -174,6 +186,7 @@ GEM
       kwalify (~> 0.7.0)
       parser (>= 2.5.0.0, < 2.6, != 2.5.1.1)
       rainbow (>= 2.0, < 4.0)
+    require_all (2.0.0)
     rubocop (0.58.2)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
@@ -258,6 +271,7 @@ DEPENDENCIES
   overcommit
   puma (~> 3.11)
   rails (~> 5.2.1)
+  rails_best_practices
   reek
   rubocop
   sass-rails (~> 5.0)

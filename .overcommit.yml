@@ -23,10 +23,10 @@ PreCommit:
 
   MergeConflicts:
     enabled: true
-    
+
   YamlSyntax:
     enabled: true
-    
+
   BundleCheck:
     enabled: true
 
@@ -40,4 +40,7 @@ PreCommit:
     enabled: true
 
   Reek:
+    enabled: true
+
+  RailsBestPractices:
     enabled: true
