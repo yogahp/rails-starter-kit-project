@@ -56,12 +56,6 @@ $ bundle exec rspec spec/controllers/accounts_controller_spec.rb
 $ bundle exec rspec spec/controllers/accounts_controller_spec.rb:8
 ```
 
-### Minitest
-
-```
-$ rake test
-```
-
 ### Brakeman
 
 ```
