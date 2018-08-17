@@ -33,7 +33,7 @@ Open [htttp://localhost:3000](http://localhost:3000) on your browser, and then y
 
 ## Running the tests
 
-### Rspec
+### [RSpec](https://github.com/rspec/rspec-rails)
 
 Testing framework for Rails 3.x, 4.x and 5.x.
 
