@@ -56,7 +56,12 @@ $ bundle exec rspec spec/controllers/accounts_controller_spec.rb
 $ bundle exec rspec spec/controllers/accounts_controller_spec.rb:8
 ```
 
-### Brakeman
+### [Brakeman](https://github.com/presidentbeef/brakeman)
+
+Brakeman is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
+
+Use the `brakeman` command to run brakeman
+
 
 ```
 $ brakeman
