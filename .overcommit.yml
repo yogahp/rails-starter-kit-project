@@ -44,3 +44,7 @@ PreCommit:
 
   RailsBestPractices:
     enabled: true
+
+PrePush:
+  Brakeman:
+    enabled: true
