@@ -86,3 +86,13 @@ Use the `fasterer` command to run fasterer
 ```
 $ fasterer
 ```
+
+### [rails_best_practices](https://github.com/flyerhzm/rails_best_practices)
+
+rails_best_practices is a code metric tool to check the quality of Rails code.
+
+Use the `rails_best_practices` command to run rails_best_practices
+
+```
+$ rails_best_practices
+```
