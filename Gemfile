@@ -3,14 +3,14 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.1'
+ruby '2.6.3'
 
 gem 'bootsnap', '>= 1.1.0', require: false # Boot large Ruby/Rails apps faster
 gem 'coffee-rails', '~> 4.2' # CoffeeScript adapter for the Rails asset pipeline
 gem 'jbuilder', '~> 2.5' # Generate JSON objects with a Builder-style DSL
 gem 'overcommit', '~> 0.45.0' # A fully configurable and extendable Git hook manager
 gem 'puma', '~> 3.11' # Web Server Built For Concurrency
-gem 'rails', '~> 5.2.1' # Web-application framework
+gem 'rails', '~> 5.2.2.1' # Web-application framework
 gem 'sass-rails', '~> 5.0' # Stylesheet engine for Sass
 gem 'turbolinks', '~> 5' # Makes navigating your web application faster
 gem 'tzinfo-data', '~> 1.2.5', platforms: %i[mingw mswin x64_mingw jruby] # TZInfo::Data - Timezone Data for TZInfo
@@ -23,7 +23,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'better_errors', '~> 2.4.0' # Replaces the standard Rails error page with a much better and more useful error page
+  gem 'better_errors', '~> 2.5.1' # Replaces the standard Rails error page with a much better and more useful error page
   gem 'binding_of_caller', '~> 0.8.0' # Retrieve the binding of a method's caller in MRI (>= 1.9.2) and RBX (Rubinius)
   gem 'brakeman', '~> 4.3.1', require: false # Static analysis tool which checks security vulnerabilities.
   gem 'bundler-audit', '~> 0.6.0' # Patch-level verification for Bundler
