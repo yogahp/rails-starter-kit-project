@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.1'
+ruby '2.6.3'
 
 gem 'bootsnap', '>= 1.1.0', require: false # Boot large Ruby/Rails apps faster
 gem 'coffee-rails', '~> 4.2' # CoffeeScript adapter for the Rails asset pipeline
