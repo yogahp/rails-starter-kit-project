@@ -23,7 +23,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'better_errors', '~> 2.4.0' # Replaces the standard Rails error page with a much better and more useful error page
+  gem 'better_errors', '~> 2.5.1' # Replaces the standard Rails error page with a much better and more useful error page
   gem 'binding_of_caller', '~> 0.8.0' # Retrieve the binding of a method's caller in MRI (>= 1.9.2) and RBX (Rubinius)
   gem 'brakeman', '~> 4.3.1', require: false # Static analysis tool which checks security vulnerabilities.
   gem 'bundler-audit', '~> 0.6.0' # Patch-level verification for Bundler
